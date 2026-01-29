@@ -93,6 +93,38 @@ py_rpi_oled/
 └── slkscrb.ttf           # Silkscreen font (bold)
 ```
 
+## Git Workflow
+
+- Create commits only when explicitly requested by the user
+- Do not commit files containing secrets (.env, credentials.json, etc.)
+- Avoid force pushes to main/master branch
+- Follow existing commit message style from git history
+
+### Git Commands Reference
+
+```bash
+# Check repository status
+git status
+
+# View changes
+git diff
+
+# Stage files
+git add <file>
+
+# Create commit
+git commit -m "commit message"
+
+# View commit history
+git log --oneline -10
+
+# Push to remote
+git push
+
+# Pull latest changes
+git pull
+```
+
 ## Notes for Agents
 
 - Code targets Raspberry Pi hardware - cannot run on standard development machines
