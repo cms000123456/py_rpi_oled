@@ -1,0 +1,32 @@
+# GitHub Repository Settings
+
+Copy these values into your GitHub repository settings:
+
+## Description
+Python scripts for driving SSD1306 OLED displays on Raspberry Pi - system monitoring dashboard and interactive control panel with GPIO button support
+
+## Website
+(leave empty or add your project URL)
+
+## Topics (one per line)
+raspberry-pi
+oled
+ssd1306
+python
+i2c
+gpio
+system-monitor
+display
+circuitpython
+embedded
+hardware
+monitoring
+
+---
+
+To apply these settings:
+1. Go to https://github.com/cms000123456/py_rpi_oled
+2. Click the gear icon next to "About" on the right side
+3. Paste the description
+4. Add the topics (comma-separated or one by one)
+5. Click "Save changes"
